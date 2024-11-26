@@ -1,0 +1,6 @@
+path: H:/final_code/deepALplus-master/data/VOC2012  # 数据集根目录,建议使用绝对路径
+train: H:/final_code/deepALplus-master/data/VOC2012/train.txt  # 训练集图片文件 ('path'的相对路径)
+val: H:/final_code/deepALplus-master/data/VOC2012/val.txt  # 验证集图片文件 ('path'的相对路径)
+
+nc: 20  # 类别数量
+names: ['aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus', 'car', 'cat', 'chair', 'cow', 'diningtable', 'dog', 'horse', 'motorbike', 'person', 'pottedplant', 'sheep', 'sofa', 'train', 'tvmonitor']
